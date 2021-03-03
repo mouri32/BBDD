@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_insertar"
+        android:orderInCategory="100"
+        android:title="@string/insertar_cita"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_borrar"
+        android:title="@string/borrar_cita"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_consultar"
+        android:title="@string/consultar_cita"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_modificarf"
+        android:title="@string/modificar_cita"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

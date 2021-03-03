@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BBDD</string>
+    <string name="numero_cita">Numero Cita</string>
+    <string name="asunto">Asunto...</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="insertar_cita">Insertar cita</string>
+    <string name="borrar_cita">Borrar Cita</string>
+    <string name="consultar_cita">Consultar Cita</string>
+    <string name="modificar_cita">Modificar Cita</string>
+</resources>
