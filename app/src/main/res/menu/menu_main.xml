@@ -18,7 +18,7 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
-    <item android:id="@+id/action_modificarf"
+    <item android:id="@+id/action_modificar"
         android:title="@string/modificar_cita"
         android:orderInCategory="100"
         app:showAsAction="never" />

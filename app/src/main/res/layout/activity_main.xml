@@ -6,12 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:id="@+id/textNumCita"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:background="@android:color/holo_blue_light"
         android:hint="@string/numero_cita"
+        android:importantForAutofill="no"
+        android:inputType="number|text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -21,12 +23,12 @@
 
     <EditText
         android:id="@+id/textFecha"
-        android:layout_width="70dp"
+        android:layout_width="100dp"
         android:layout_height="40dp"
         android:autofillHints=""
         android:background="@android:color/holo_red_light"
         android:hint="@string/fecha"
-        android:inputType="date"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.25"
@@ -36,12 +38,12 @@
 
     <EditText
         android:id="@+id/textHora"
-        android:layout_width="70dp"
+        android:layout_width="100dp"
         android:layout_height="40dp"
         android:autofillHints=""
         android:background="@android:color/holo_red_light"
         android:hint="@string/hora"
-        android:inputType="time"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.75"
@@ -57,6 +59,7 @@
         android:background="@android:color/holo_blue_light"
         android:hint="@string/asunto"
         android:inputType="text"
+        android:textAlignment="gravity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
